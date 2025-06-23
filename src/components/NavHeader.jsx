@@ -1,4 +1,4 @@
-import logoKinCode from './logoKinCode.svg';
+import logoKinCode from '../assets/logoKinCode.svg';
 function NavHeader() {
     return (
         <div className='flex items-center justify-between py-2 px-10'>

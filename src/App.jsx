@@ -1,14 +1,21 @@
 import './App.css'
-import NavHeader from './assets/NavHeader'
+import NavHeader from './components/NavHeader'
+import Hero from './components/Hero'
+import Mision from './components/Mision'
+import Servicios from './components/Servicios'
+import Caracteristicas from './components/Caracteristicas'
 
 function App() {
 
   return (
     <>
       <NavHeader />
-      <div>
-        <h1>hola que tal</h1>
-      </div>
+      <main>
+        <Hero />
+        <Mision />
+        <Servicios />
+        <Caracteristicas />
+      </main>
     </>
   )
 }

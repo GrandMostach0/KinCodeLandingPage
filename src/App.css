@@ -4,4 +4,8 @@
   .navItem {
     @apply mx-2 font-semibold px-2 py-1 hover:text-blue-400;
   }
+
+  .division{
+    @apply border;
+  }
 }
