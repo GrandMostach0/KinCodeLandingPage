@@ -5,7 +5,11 @@
     @apply mx-2 font-semibold px-2 py-1 hover:text-blue-400;
   }
 
+  .tag {
+    @apply border text-xs font-bold py-1 px-3 rounded-lg flex items-center justify-center gap-1 border-green-400/50 bg-green-100 text-green-600 pointer-events-none;
+  }
+
   .division{
-    @apply border;
+    @apply border px-5 py-20 min-h-[400px];
   }
 }
