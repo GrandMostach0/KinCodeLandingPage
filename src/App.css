@@ -6,10 +6,14 @@
   }
 
   .tag {
-    @apply border text-xs font-bold py-1 px-3 rounded-lg flex items-center justify-center gap-1 border-green-400/50 bg-green-100 text-green-600 pointer-events-none;
+    @apply border border-fuchsia-400/50 bg-gradient-to-l from-violet-400/30 from-25% via-fuchsia-400/30 via-100% text-fuchsia-800 text-xs font-bold py-2 px-4 rounded-lg flex items-center justify-center gap-1 pointer-events-none;
   }
 
   .division{
     @apply px-5 py-20 min-h-[500px];
+  }
+
+  .degradado {
+    @apply font-extrabold bg-gradient-to-l from-violet-700 from-25% via-fuchsia-800 via-100% text-clip bg-clip-text text-transparent;
   }
 }

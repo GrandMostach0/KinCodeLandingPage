@@ -11,7 +11,10 @@ import FooterSection from './components/FooterSection'
 function App() {
 
   return (
-    <>
+    <div className='relative'>
+      <div className='circle c1'></div>
+      <div className='circle c2'></div>
+      <div className='circle c3'></div>
       <NavHeader />
       <main>
         <Hero />
@@ -22,7 +25,7 @@ function App() {
         <Presencia />
       </main>
       <FooterSection />
-    </>
+    </div>
   )
 }
 
