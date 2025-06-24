@@ -19,7 +19,6 @@ const Hero = () => {
       .from(textRef.current, { opacity: 0, filter: "blur(10px)", y: 20 }, "-=0.7")
       .from(buttonsRef.current, { opacity: 0, filter: "blur(10px)", y: 20 }, "-=0.7");
   }, []);
-   
     return (
         <section
             className="text-center h-[80vh] flex flex-col items-center justify-center gap-5"
@@ -33,8 +32,8 @@ const Hero = () => {
             </div>
 
             <div ref={buttonsRef}>
-                <a className="navItem py-2 px-3 rounded-lg border bg-blue-100 border-blue-400" href="">Solicitar Cotización</a>
-                <a className="navItem py-2 px-3 rounded-lg border-2 border-gray-500" href="">Ver Portafolio</a>
+                <a className="navItem py-2 px-3 rounded-lg bg-gradient-to-r from-violet-800 to-fuchsia-500 text-white" href="">Solicitar Cotización</a>
+                <a className="navItem py-2 px-3 rounded-lg border-2 border-violet-800" href="">Ver Portafolio</a>
             </div>
 
         </section>

@@ -50,7 +50,7 @@ function Preguntas() {
 
             <div className="text-center mt-12">
                 <p className="mb-5">¿Tienes más preguntas?</p>
-                <a className="border px-3 py-2 bg-green-800 text-white rounded-lg" href="">Contactar a Nuestro Equipo</a>
+                <a className="border px-3 py-2 bg-gradient-to-r from-violet-800 to-fuchsia-500 text-white rounded-lg" href="">Contactar a Nuestro Equipo</a>
             </div>
 
         </section>
