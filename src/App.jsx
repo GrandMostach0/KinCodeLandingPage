@@ -16,7 +16,7 @@ function App() {
       <div className='circle c2'></div>
       <div className='circle c3'></div>
       <NavHeader />
-      <main>
+      <main className=' md:px-5 lg:px-20'>
         <Hero />
         <Mision />
         <Servicios />

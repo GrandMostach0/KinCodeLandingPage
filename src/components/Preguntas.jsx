@@ -32,11 +32,11 @@ function Preguntas() {
         <section className="division">
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span className="tag"> <UsersIc /> FAQ</span>
-                <h1 className="text-5xl font-bold">Preguntas Frecuentes</h1>
-                <p className="w-[70%] text-xl font-semibold">Resolvemos las dudas más comunes sobre nuestros servicios de desarrollo web.</p>
+                <h1 className="titulo">Preguntas Frecuentes</h1>
+                <p className="w-full md:w-[70%] text-lg sm:text-xl lg:text-2xl font-semibold">Resolvemos las dudas más comunes sobre nuestros servicios de desarrollo web.</p>
             </div>
 
-            <div className="w-[70%] m-auto mt-10">
+            <div className="w-[95%] md:w-[70%] m-auto mt-10">
                 {listasPreguntas.map((ask, index) => (
                     <Acordion
                         key={index}

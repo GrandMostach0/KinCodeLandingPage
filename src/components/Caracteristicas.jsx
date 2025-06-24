@@ -70,11 +70,11 @@ function Caracteristicas() {
         <section ref={containerRef} className="division">
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span ref={tagRef}  className="tag"> <BoltIc /> Características Principales</span>
-                <h1 ref={titleRef} className="text-5xl font-bold">Expertos en el Desarrollo Web</h1>
-                <p ref={textRef} className="w-[70%] text-xl font-semibold">Descubre las características que hacen de nuestros servicios la elección perfecta para empresas que buscan destacar en el mundo digital.</p>
+                <h1 ref={titleRef} className="titulo">Expertos en el Desarrollo Web</h1>
+                <p ref={textRef} className="w-full md:w-[70%] text-lg sm:text-xl lg:text-2xl font-semibold">Descubre las características que hacen de nuestros servicios la elección perfecta para empresas que buscan destacar en el mundo digital.</p>
             </div>
 
-            <div className="grid grid-cols-4 gap-7 py-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 md:gap-8 py-8">
                 {[
                     {
                         icon: <ResponsiveIc />,

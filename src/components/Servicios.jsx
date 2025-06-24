@@ -4,14 +4,14 @@ import MobileDesing from "../assets/datos.webp";
 function Servicios() {
 
     return(
-        <section className="division flex items-center gap-4">
+        <section className="division flex flex-col md:flex-row items-center gap-4">
 
             <div className="flex-1/2 py-2 px-4">
-                <span className="inline-flex gap-2 items-center justify-center px-4 py-2 text-sm rounded-lg border border-fuchsia-400/50 bg-gradient-to-l from-violet-400/30 from-25% via-fuchsia-400/30 via-100% text-fuchsia-800 font-semibold"> <PcIc /> Nuestros Servicios</span>
+                <span className="inline-flex gap-2 items-center justify-center px-4 py-1 sm:py-2 text-xs md:text-sm rounded-lg border border-fuchsia-400/50 bg-gradient-to-l from-violet-400/30 from-25% via-fuchsia-400/30 via-100% text-fuchsia-800 font-semibold"> <PcIc /> Nuestros Servicios</span>
                 
-                <h1 className="font-bold text-5xl">Soluciones Web Completas</h1>
+                <h1 className="titulo">Soluciones Web Completas</h1>
                 
-                <p className="py-2 text-xl">Ofrecemos servicios integrales de desarrollo web, desde la conceptualización hasta el lanzamiento y mantenimiento. Tu éxito digital es nuestra prioridad.</p>
+                <p className="py-2 text-lg md:text-xl ">Ofrecemos servicios integrales de desarrollo web, desde la conceptualización hasta el lanzamiento y mantenimiento. Tu éxito digital es nuestra prioridad.</p>
 
                 <CaracteristicaList title="Desarrollo Frontend" description="Interfaces modernas y responsivas con React, Next.js y Tailwind CSS." />
                 <CaracteristicaList title="Desarrollo Backend" description="APIs robustas y bases de datos optimizadas para máximo rendimiento." />
@@ -19,7 +19,7 @@ function Servicios() {
 
             </div>
             <div className="flex-1/2 py-2 px-4">
-                <img src={MobileDesing} alt="Celular" className="h-[500px] object-cover"/>
+                <img src={MobileDesing} alt="Celular" className="object-cover h-[250px] sm:h-[350px] lg:h-[450px]"/>
             </div>
         </section>
     )
