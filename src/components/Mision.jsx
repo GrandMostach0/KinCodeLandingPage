@@ -6,7 +6,7 @@ function Mision() {
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span className="tag"> <UsersIc /> Nuestra Misión</span>
                 <h1 className="text-5xl font-bold">Expertos en el Desarrollo Web</h1>
-                <p className="w-[70%] text-lg font-semibold">Somos un equipo apasionado de desarrolladores y diseñadores que crea soluciones web innovadoras. Combinamos creatividad, tecnología de vanguardia y experiencia de usuario excepcional para llevar tu negocio al siguiente nivel digital.</p>
+                <p className="w-[70%] text-xl font-semibold">Somos un equipo apasionado de desarrolladores y diseñadores que crea soluciones web innovadoras. Combinamos creatividad, tecnología de vanguardia y experiencia de usuario excepcional para llevar tu negocio al siguiente nivel digital.</p>
             </div>
 
             <div className="grid grid-cols-3 gap-10 w-[60%] m-auto mt-8">

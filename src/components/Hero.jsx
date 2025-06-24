@@ -7,7 +7,7 @@ const Hero = () => {
 
             <div className="w-[70%] pointer-events-none">
                 <h1 className="text-6xl font-bold">Creamos <span className="text-green-600">Experiencias Web</span> Extraordinarias</h1>
-                <p className="font-semibold text-xl my-3">Transformamos tus ideas en sitios web modernos, rápidos y funcionales. Especialistas en desarrollo frontend y backend con las últimas tecnologías.</p>
+                <p className="font-semibold text-2xl my-3">Transformamos tus ideas en sitios web modernos, rápidos y funcionales. Especialistas en desarrollo frontend y backend con las últimas tecnologías.</p>
             </div>
 
             <div>

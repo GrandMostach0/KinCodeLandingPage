@@ -6,7 +6,7 @@ function Caracteristicas() {
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span className="tag"> <BoltIc /> Características Principales</span>
                 <h1 className="text-5xl font-bold">Expertos en el Desarrollo Web</h1>
-                <p className="w-[70%] text-lg font-semibold">Descubre las características que hacen de nuestros servicios la elección perfecta para empresas que buscan destacar en el mundo digital.</p>
+                <p className="w-[70%] text-xl font-semibold">Descubre las características que hacen de nuestros servicios la elección perfecta para empresas que buscan destacar en el mundo digital.</p>
             </div>
 
             <div className="grid grid-cols-4 gap-7 py-8">
