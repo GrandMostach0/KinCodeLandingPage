@@ -1,10 +1,10 @@
-import { BoltIc, CodeIc, PaintIc, SecurityIc } from "../assets/icons/Icons";
+import { UsersIc, CodeIc, PaintIc, SecurityIc } from "../assets/icons/Icons";
 import CardMision from "./CardMision";
 function Mision() {
     return(
         <section className="division">
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
-                <span className="tag"> <BoltIc /> Características Principales</span>
+                <span className="tag"> <UsersIc /> Nuestra Misión</span>
                 <h1 className="text-5xl font-bold">Expertos en el Desarrollo Web</h1>
                 <p className="w-[70%] text-lg font-semibold">Somos un equipo apasionado de desarrolladores y diseñadores que crea soluciones web innovadoras. Combinamos creatividad, tecnología de vanguardia y experiencia de usuario excepcional para llevar tu negocio al siguiente nivel digital.</p>
             </div>
