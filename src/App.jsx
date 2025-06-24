@@ -5,6 +5,7 @@ import Mision from './components/Mision'
 import Servicios from './components/Servicios'
 import Caracteristicas from './components/Caracteristicas'
 import Preguntas from './components/Preguntas'
+import FooterSection from './components/FooterSection'
 
 function App() {
 
@@ -16,9 +17,9 @@ function App() {
         <Mision />
         <Servicios />
         <Caracteristicas />
+        <Preguntas />
       </main>
-
-      <Preguntas />
+      <FooterSection />
     </>
   )
 }

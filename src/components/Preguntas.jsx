@@ -48,6 +48,11 @@ function Preguntas() {
                 ))}
             </div>
 
+            <div className="text-center mt-12">
+                <p className="mb-4">¿Tienes más preguntas?</p>
+                <a className="border px-3 py-2 bg-green-800 text-white rounded-lg" href="">Contactar a Nuestro Equipo</a>
+            </div>
+
         </section>
     )
 }
