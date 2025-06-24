@@ -1,8 +1,8 @@
 import { RowDowAskIc } from "../assets/icons/Icons";
 function Acordion({ pregunta, respuesta, isOpen, onClick }) {
     return (
-        <div className="text-xl border border-gray-300 rounded-lg mb-4 px-3 py-3">
-            <div className="flex justify-between items-center cursor-pointer select-none hover:text-green-600 hover:underline" onClick={onClick}>
+        <div className="text-xl border border-gray-300 bg-white/50 rounded-lg mb-4 px-3 py-3">
+            <div className="flex justify-between items-center cursor-pointer select-none hover:text-violet-900 hover:underline" onClick={onClick}>
                 <h3 className="font-semibold">¿{pregunta}?</h3>
                  <span
                     className={`transform transition-transform duration-300 ${
