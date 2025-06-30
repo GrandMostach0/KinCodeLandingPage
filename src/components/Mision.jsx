@@ -6,19 +6,22 @@ function Mision() {
     return(
         <section className="division">
 
-            <SplitText2 
-                text="BIENVENIDO"
-                className="text-2xl font-semibold text-center"
-                delay={100}
-                duration={0.6}
-                ease="power3.out"
-                splitType="chars"
-            />
-
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span className="tag"> <UsersIc /> Nuestra Misión</span>
                 <h1 className="titulo">Expertos en el Desarrollo Web</h1>
-                <p className="w-[90%] md:w-[70%] text-lg sm:text-xl lg:text-2xl font-semibold">Somos un equipo apasionado de desarrolladores que creamos soluciones web innovadoras. Creatividad, tecnología y experiencia.</p>
+                <SplitText2 
+                    text="Somos un equipo apasionado de desarrolladores que creamos soluciones web innovadoras. Creatividad, tecnología y experiencia."
+                    className="w-[90%] md:w-[70%] text-lg sm:text-xl lg:text-2xl font-semibold"
+                    delay={40}
+                    duration={0.4}
+                    ease="power3.out"
+                    splitType="words"
+                    from={{ opacity: 0, y: 40}}
+                    to={{ opacity: 1, y: 0}}
+                    threshold={0.1}
+                    rootMargin="-100px"
+                    textAlign="center"
+                />
             </div>
 
             <div className="grid gap-2 sm:grid-cols-3 sm:gap-2 md:gap-8 w-full sm:w-[98%] m-auto mt-8">
