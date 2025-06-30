@@ -5,7 +5,7 @@ import SplitText2 from "../TextAnimations/SplitText/SplitText2";
 function Servicios() {
 
     return(
-        <section className="division flex flex-col md:flex-row items-center gap-4">
+        <section id="servicios" className="division flex flex-col md:flex-row items-center gap-4">
 
             <div className="flex-1/2 py-2 px-4">
                 <span className="inline-flex gap-2 items-center justify-center px-4 py-1 sm:py-2 text-xs md:text-sm rounded-lg border border-fuchsia-400/50 bg-gradient-to-l from-violet-400/30 from-25% via-fuchsia-400/30 via-100% text-fuchsia-800 font-semibold"> <PcIc /> Nuestros Servicios</span>
