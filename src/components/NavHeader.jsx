@@ -2,7 +2,7 @@ import logoKinCode from '../assets/logoKinCode.svg';
 import { Link } from 'react-scroll';
 function NavHeader() {
     return (
-        <div className='flex flex-col sm:flex-row items-center justify-between gap-2 py-3 px-2 sticky top-2 w-[90%] m-auto bg-white/40 backdrop-blur-lg rounded-2xl z-20'>
+        <div className='flex flex-col sm:flex-row items-center justify-between gap-2 py-3 px-2 sticky top-0 sm:top-2 sm:w-[90%] m-auto bg-white/10 backdrop-blur-lg rounded-2xl z-20'>
 
             <div className='flex-1/6'>
                 <img className='w-[80px]' src={logoKinCode} alt="Logo" />
