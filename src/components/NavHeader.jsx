@@ -9,7 +9,7 @@ function NavHeader() {
             </div>
 
             <nav className='flex-1/2 text-right'>
-                <Link to='servicios' className='navItem text-sm md:text-base cursor-pointer' smooth={true} duration={500} offset={-50} >Servicios</Link>
+                <Link to='servicios' className='navItem text-sm md:text-base cursor-pointer' smooth={true} duration={500} offset={-10} >Servicios</Link>
                 <Link to='contacto' className='navItem text-sm md:text-base cursor-pointer' smooth={true} duration={500} offset={-70} >Contacto</Link>
                 <a className='navItem text-sm md:text-base' href="tel:+529994552047">Comenzar Proyecto</a>
             </nav>
