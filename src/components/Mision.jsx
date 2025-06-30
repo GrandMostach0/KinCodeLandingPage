@@ -1,8 +1,20 @@
 import { UsersIc, CodeIc, PaintIc, SecurityIc } from "../assets/icons/Icons";
 import CardMision from "./CardMision";
+import SplitText2 from "../TextAnimations/SplitText/SplitText2";
+
 function Mision() {
     return(
         <section className="division">
+
+            <SplitText2 
+                text="BIENVENIDO"
+                className="text-2xl font-semibold text-center"
+                delay={100}
+                duration={0.6}
+                ease="power3.out"
+                splitType="chars"
+            />
+
             <div className="borde text-center flex flex-col items-center justify-center gap-2">
                 <span className="tag"> <UsersIc /> Nuestra Misión</span>
                 <h1 className="titulo">Expertos en el Desarrollo Web</h1>
